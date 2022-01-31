@@ -7,7 +7,7 @@ set -e
 
 echo
 echo 'About to call say() on the contract'
-echo near call \$CONTRACT say '{"message":"$1", "anonymous": true}' --account_id \$SPEAKER --amount \$1
+echo near call \$CONTRACT say '{"message":"$1", "anonymous": true}' --account_id \$SPEAKER --amount \$2
 echo
 echo \$CONTRACT is $CONTRACT
 echo \$SPEAKER is $SPEAKER
